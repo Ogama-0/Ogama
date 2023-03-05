@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="20" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="103">
+ <tileset firstgid="1" name="sol" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="sol.jpg" trans="003039" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="RPG Nature Tileset" tilewidth="32" tileheight="32" tilecount="180" columns="20">
+  <image source="RPG Nature Tileset.png" trans="003039" width="641" height="288"/>
+ </tileset>
+ <tileset firstgid="185" name="tapis" tilewidth="32" tileheight="32" tilecount="10" columns="5">
+  <image source="tapis.jpg" trans="003039" width="190" height="64"/>
+ </tileset>
+ <layer id="2" name="background" width="20" height="40">
+  <data encoding="csv">
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,2147483838,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,185,2147483838,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,185,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,185,192,193,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,192,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
+3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4
+</data>
+ </layer>
+ <layer id="1" name="murs" width="20" height="40">
+  <data encoding="csv">
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,
+48,0,0,0,48,0,0,0,0,0,48,0,0,0,48,0,0,0,0,48,
+48,0,48,0,48,0,48,0,48,0,0,0,48,0,48,0,48,48,0,48,
+48,0,48,0,48,0,0,0,48,48,48,48,48,0,48,0,48,0,0,48,
+48,0,48,48,48,0,48,48,0,0,0,0,48,0,48,0,48,0,48,48,
+48,0,0,0,48,0,0,0,0,48,48,0,48,0,0,0,48,0,0,0,
+48,48,48,0,48,48,48,48,48,48,0,0,48,48,48,48,48,48,48,48,
+48,0,0,0,48,0,0,0,0,48,0,48,48,0,0,0,0,0,0,48,
+48,0,48,48,48,0,48,48,0,48,0,0,48,0,48,48,48,48,0,48,
+48,0,0,0,0,0,0,48,0,48,48,0,48,48,0,0,0,0,0,48,
+48,48,48,48,48,48,0,48,0,0,0,0,48,0,0,48,48,48,48,48,
+48,0,0,0,0,48,0,48,48,48,48,48,48,0,48,48,0,0,0,48,
+48,0,48,48,0,48,0,0,0,0,0,0,48,0,48,0,0,48,0,48,
+48,0,0,48,0,48,48,48,48,48,48,0,48,0,0,0,48,0,0,48,
+48,48,0,48,0,0,0,0,0,48,0,0,48,48,48,48,48,48,0,48,
+48,0,0,48,48,48,48,48,0,48,0,48,48,0,0,0,0,48,0,48,
+48,0,48,48,0,0,0,48,0,48,0,48,0,48,48,48,0,48,0,48,
+48,0,0,0,0,48,0,48,0,0,0,48,0,0,0,48,0,48,0,48,
+48,48,48,48,48,0,0,48,48,48,48,48,48,48,0,48,0,48,0,48,
+48,0,0,0,48,0,48,48,0,0,0,0,0,48,0,48,0,0,0,48,
+48,0,48,0,48,0,0,48,0,48,48,48,0,0,0,48,48,48,48,48,
+48,0,48,0,48,48,0,48,0,0,0,48,48,48,48,48,0,0,0,48,
+48,0,48,0,0,0,0,48,0,48,0,48,0,0,0,48,0,48,0,48,
+48,0,48,48,48,48,48,48,48,48,0,48,0,48,0,48,0,48,0,48,
+48,0,0,0,0,0,0,48,0,0,0,48,0,48,0,48,0,48,0,48,
+48,48,48,48,48,48,0,48,0,48,48,48,0,48,0,48,0,48,0,48,
+48,0,0,0,0,0,0,48,0,0,0,0,0,48,0,48,0,48,0,48,
+48,0,48,48,48,48,0,48,0,48,48,48,48,48,48,48,0,48,0,48,
+48,0,0,0,0,48,0,48,0,0,0,0,0,0,48,0,0,48,0,48,
+48,48,48,48,0,48,0,48,48,48,48,48,48,0,48,48,48,48,0,48,
+48,0,0,0,0,48,0,0,0,0,0,0,48,0,48,0,0,0,0,48,
+48,0,48,48,48,48,48,48,48,48,48,0,48,0,48,0,48,48,48,48,
+48,0,48,0,0,0,0,0,0,0,48,0,0,0,48,0,0,0,0,48,
+48,0,48,0,48,48,48,48,48,0,48,0,48,48,48,48,48,48,0,48,
+48,0,0,0,48,0,0,0,48,0,48,0,48,0,0,0,0,0,0,48,
+48,48,48,48,48,0,48,0,48,0,48,0,48,0,48,48,48,48,48,48,
+48,0,0,0,48,0,48,0,48,0,48,0,48,0,0,0,0,0,0,48,
+48,0,0,0,48,0,48,0,48,0,48,0,48,48,48,48,48,48,0,48,
+48,0,0,0,0,0,48,0,0,0,48,0,0,0,0,0,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48
+</data>
+ </layer>
+ <objectgroup id="3" name="collisions">
+  <object id="1" name="mur" type="collision" x="0" y="1248" width="640" height="32"/>
+  <object id="2" name="mur" type="collision" x="0" y="0" width="32" height="1280"/>
+  <object id="3" name="mur" type="collision" x="0" y="0" width="640" height="32"/>
+  <object id="4" name="mur" type="collision" x="608" y="32" width="32" height="128"/>
+  <object id="5" name="mur" type="collision" x="608" y="192" width="32" height="1088"/>
+  <object id="6" name="mur" type="collision" x="192" y="1120" width="32" height="128"/>
+  <object id="7" name="mur" type="collision" x="32" y="1120" width="128" height="32"/>
+  <object id="8" name="mur" type="collision" x="128" y="1056" width="32" height="160"/>
+  <object id="9" name="mur" type="collision" x="128" y="1056" width="160" height="32"/>
+  <object id="10" name="mur" type="collision" x="256" y="1088" width="32" height="128"/>
+  <object id="11" name="mur" type="collision" x="320" y="992" width="32" height="256"/>
+  <object id="12" name="mur" type="collision" x="64" y="992" width="288" height="32"/>
+  <object id="13" name="mur" type="collision" x="64" y="1024" width="32" height="64"/>
+  <object id="14" name="mur" type="collision" x="160" y="864" width="32" height="128"/>
+  <object id="15" name="mur" type="collision" x="64" y="864" width="96" height="32"/>
+  <object id="16" name="mur" type="collision" x="32" y="928" width="96" height="32"/>
+  <object id="17" name="mur" type="collision" x="384" y="1056" width="32" height="160"/>
+  <object id="18" name="mur" type="collision" x="416" y="1184" width="160" height="32"/>
+  <object id="19" name="mur" type="collision" x="448" y="1120" width="160" height="32"/>
+  <object id="20" name="mur" type="collision" x="416" y="1056" width="160" height="32"/>
+  <object id="21" name="mur" type="collision" x="448" y="864" width="32" height="192"/>
+  <object id="22" name="mur" type="collision" x="480" y="928" width="96" height="32"/>
+  <object id="23" name="mur" type="collision" x="512" y="992" width="96" height="32"/>
+  <object id="24" name="mur" type="collision" x="384" y="928" width="32" height="96"/>
+  <object id="27" name="mur" type="collision" x="224" y="928" width="192" height="32"/>
+  <object id="29" name="mur" type="collision" x="224" y="512" width="32" height="416"/>
+  <object id="30" name="mur" type="collision" x="96" y="480" width="160" height="32"/>
+  <object id="31" name="mur" type="collision" x="160" y="544" width="32" height="32"/>
+  <object id="32" name="mur" type="collision" x="64" y="576" width="96" height="32"/>
+  <object id="33" name="mur" type="collision" x="32" y="576" width="32" height="32"/>
+  <object id="34" name="mur" type="collision" x="128" y="608" width="32" height="96"/>
+  <object id="35" name="mur" type="collision" x="160" y="672" width="32" height="32"/>
+  <object id="36" name="mur" type="collision" x="64" y="640" width="32" height="128"/>
+  <object id="37" name="mur" type="collision" x="96" y="736" width="192" height="32"/>
+  <object id="38" name="mur" type="collision" x="288" y="704" width="32" height="64"/>
+  <object id="39" name="mur" type="collision" x="64" y="800" width="128" height="32"/>
+  <object id="40" name="mur" type="collision" x="32" y="800" width="32" height="32"/>
+  <object id="41" name="mur" type="collision" x="32" y="448" width="32" height="32"/>
+  <object id="42" name="mur" type="collision" x="64" y="512" width="64" height="32"/>
+  <object id="43" name="mur" type="collision" x="64" y="384" width="64" height="32"/>
+  <object id="44" name="mur" type="collision" x="96" y="416" width="32" height="64"/>
+  <object id="45" name="mur" type="collision" x="32" y="320" width="160" height="32"/>
+  <object id="46" name="mur" type="collision" x="160" y="352" width="32" height="96"/>
+  <object id="47" name="mur" type="collision" x="192" y="416" width="160" height="32"/>
+  <object id="49" name="mur" type="collision" x="288" y="448" width="32" height="96"/>
+  <object id="50" name="mur" type="collision" x="256" y="576" width="192" height="32"/>
+  <object id="51" name="mur" type="collision" x="416" y="608" width="32" height="32"/>
+  <object id="52" name="mur" type="collision" x="192" y="608" width="32" height="32"/>
+  <object id="53" name="mur" type="collision" x="288" y="640" width="96" height="32"/>
+  <object id="54" name="mur" type="collision" x="352" y="672" width="160" height="32"/>
+  <object id="55" name="mur" type="collision" x="480" y="736" height="32"/>
+  <object id="56" name="mur" type="collision" x="480" y="512" width="32" height="384"/>
+  <object id="57" name="mur" type="collision" x="448" y="512" width="32" height="32"/>
+  <object id="58" name="mur" type="collision" x="416" y="512" width="32" height="32"/>
+  <object id="59" name="mur" type="collision" x="352" y="480" width="32" height="96"/>
+  <object id="60" name="mur" type="collision" x="384" y="64" width="32" height="448"/>
+  <object id="61" name="mur" type="collision" x="256" y="96" width="128" height="32"/>
+  <object id="62" name="mur" type="collision" x="256" y="64" width="32" height="32"/>
+  <object id="63" name="mur" type="collision" x="192" y="64" width="32" height="32"/>
+  <object id="64" name="mur" type="collision" x="192" y="128" width="64" height="32"/>
+  <object id="65" name="mur" type="collision" x="288" y="160" width="64" height="32"/>
+  <object id="66" name="mur" type="collision" x="288" y="192" width="32" height="128"/>
+  <object id="67" name="mur" type="collision" x="320" y="288" width="32" height="32"/>
+  <object id="68" name="mur" type="collision" x="352" y="224" width="32" height="32"/>
+  <object id="69" name="mur" type="collision" x="416" y="288" width="32" height="32"/>
+  <object id="70" name="mur" type="collision" x="448" y="256" width="128" height="32"/>
+  <object id="71" name="mur" type="collision" x="480" y="320" width="128" height="32"/>
+  <object id="72" name="mur" type="collision" x="480" y="352" width="32" height="32"/>
+  <object id="73" name="mur" type="collision" x="480" y="352" height="32"/>
+  <object id="74" name="mur" type="collision" x="448" y="352" width="32" height="64"/>
+  <object id="75" name="mur" type="collision" x="544" y="384" width="32" height="32"/>
+  <object id="76" name="mur" type="collision" x="416" y="448" width="160" height="32"/>
+  <object id="77" name="mur" type="collision" x="544" y="480" width="32" height="128"/>
+  <object id="78" name="mur" type="collision" x="512" y="640" width="96" height="32"/>
+  <object id="79" name="mur" type="collision" x="544" y="704" width="32" height="224"/>
+  <object id="80" name="mur" type="collision" x="288" y="864" width="160" height="32"/>
+  <object id="81" name="mur" type="collision" x="416" y="736" width="32" height="128"/>
+  <object id="82" name="mur" type="collision" x="288" y="800" width="96" height="32"/>
+  <object id="83" name="mur" type="collision" x="368" y="706.667" width="16" height="93.3333"/>
+  <object id="84" name="mur" type="collision" x="192" y="256" width="64" height="32"/>
+  <object id="85" name="mur" type="collision" x="224" y="320" width="32" height="64"/>
+  <object id="86" name="mur" type="collision" x="256" y="352" width="128" height="32"/>
+  <object id="87" name="mur" type="collision" x="224" y="288" width="32" height="32"/>
+  <object id="88" name="mur" type="collision" x="64" y="256" width="96" height="32"/>
+  <object id="89" name="mur" type="collision" x="128" y="32" width="32" height="224"/>
+  <object id="90" name="mur" type="collision" x="32" y="192" width="64" height="32"/>
+  <object id="91" name="mur" type="collision" x="64" y="64" width="32" height="96"/>
+  <object id="92" name="mur" type="collision" x="96" y="128" width="32" height="32"/>
+  <object id="93" name="mur" type="collision" x="160" y="192" width="128" height="32"/>
+  <object id="94" name="mur" type="collision" x="448" y="32" width="32" height="128"/>
+  <object id="95" name="mur" type="collision" x="320" y="32" width="32" height="32"/>
+  <object id="96" name="mur" type="collision" x="512" y="64" width="64" height="32"/>
+  <object id="97" name="mur" type="collision" x="512" y="96" width="32" height="128"/>
+  <object id="98" name="mur" type="collision" x="416" y="192" width="192" height="32"/>
+  <object id="99" name="mur" type="collision" x="576" y="128" width="32" height="32"/>
+  <object id="101" name="spawn" x="58.6667" y="1169.33">
+   <point/>
+  </object>
+  <object id="102" name="sortie labythinte" x="608" y="160" width="32" height="32"/>
+ </objectgroup>
+</map>
